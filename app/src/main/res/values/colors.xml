@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e43f3f</color>
+    <color name="colorPrimaryDark">#E12929</color>
+    <color name="colorPrimary_darker">#CC1D1D</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="cyan_500">#00BCD4</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="light_blue_500">#03A9F4</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="lime_500">#CDDC39</color>
+    <color name="amber_500">#FFC107</color>
+    <color name="pink_500">#e91e63</color>
+
+    <color name="indicator_selected">@android:color/white</color>
+    <color name="indicator_unselected">#4D000000</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="white_pressed">#f1f1f1</color>
+
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="bg">#88BABABA</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="action_checked">#909090</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+</resources>

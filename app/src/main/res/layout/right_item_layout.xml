@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:paddingStart="70dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chat_icon_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/splash" />
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:id="@+id/chat_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="3dp"
+        android:layout_toStartOf="@id/chat_icon_right"
+        app:cmv_arrowGravity="start"
+        app:cmv_arrowPosition="right"
+        app:cmv_backgroundColor="@color/cyan_500"
+        app:cmv_backgroundColorPressed="#FFBABABA"
+        app:cmv_cornerRadius="3dp">
+
+        <com.vanniktech.emoji.EmojiTextView
+            android:id="@+id/chat_text_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="测试信息测hahahah"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            app:emojiSize="18sp" />
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+</RelativeLayout>

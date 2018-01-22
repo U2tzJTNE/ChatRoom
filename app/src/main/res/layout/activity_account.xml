@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_pressed"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.u2tzjtne.chatroom.ui.activity.AccountActivity">
+
+    <LinearLayout
+        android:id="@+id/item_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/account_list_bg_selector"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="头像"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/account_activity_avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/ic_launcher" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@color/black_overlay" />
+
+    <LinearLayout
+        android:id="@+id/item_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/account_list_bg_selector"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/account_activity_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蒋凯" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:background="@color/black_overlay" />
+
+    <LinearLayout
+        android:id="@+id/item_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/account_list_bg_selector"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="邮箱"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/account_activity_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="770096355@qq.com" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_update_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/account_list_bg_selector"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="更改密码"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            app:srcCompat="@drawable/ic_right_gray" />
+
+    </LinearLayout>
+
+    <!--退出登录-->
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_logout"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme.Button" />
+
+</LinearLayout>
+
+
